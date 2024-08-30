@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe</title>
+    <!-- CSS-Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Poppins font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font-Awesome-Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar">
+            <h1>Luxe Shop</h1>
+            <div class="navbarlinks">
+                <a href="index.html" class="navbarlink">Home</a>
+                <a href="collection.html" class="navbarlink">Collection</a>
+                <a href="contact.html" class="navbarlink">Contact</a>
+            </div>
+
+            <div class="navbar-menu-toggel" onclick="ShowNow()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <!-- said-nav-bar -->
+        <div class="said-nav-bar">
+            <p style=" text-align:right" onclick="ShowOff()">
+                <i class="fa-solid fa-xmark"></i>
+            </p>
+            <div class="said-navbarlinks">
+                <a href="index.html" class="said-navbarlink">Home</a>
+                <a href="collection.html" class="said-navbarlink">Collection</a>
+                <a href="contact.html" class="said-navbarlink">Contact</a>
+            </div>
+        </div>
+        <!-- Contact -->
+
+
+        <div class="contact-main">
+            <div class="contact">
+
+                <h2>Contact Us</h2>
+                <p>Name:</p>
+                <input type="text" class="input">
+                <p>Email:</p>
+                <input type="text" class="input">
+                <p>Message:</p>
+                <textarea name="message" class="input" rows="4" cole="50"></textarea>
+                <form class="form"></form>
+                <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <h2>Luxe Shop</h2>
+                <p> A brand that is characterized by a high level of quality, exclusivity and high price tags</p>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-instagram" class="footer-icon"></i>
+                    <i class="fa-brands fa-whatsapp" class="footer-icon"></i>
+                    <i class="fa-brands fa-twitter" class="footer-icon"></i>
+                </div>
+
+            </div>
+            <p>@2024Luxeshop.como</p>
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
